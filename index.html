@@ -1,166 +1,135 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Better Brain is a mission-driven initiative helping people strengthen attention, reasoning, and collective intelligence through meaningful play and thoughtful design."
-    />
-    <title>Better Brain | Think Better. Live Better.</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Better Brain helps people strengthen attention, reasoning and collective intelligence through playful, research-informed experiences." />
+    <meta property="og:title" content="Better Brain — Train attention. Sharpen reason. Grow together." />
+    <meta property="og:description" content="Delightful micro‑experiences to strengthen attention, reasoning and collective intelligence." />
+    <meta property="og:image" content="/og-image.png" />
+    <title>Better Brain — Train attention. Sharpen reason.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <div id="page-preloader" aria-hidden="true">
+      <div class="loader">
+        <svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
+      </div>
+    </div>
+
     <header class="site-header">
-      <div class="container nav">
-        <div class="brand">Better Brain</div>
-        <nav>
+      <div class="container header-inner">
+        <a class="brand" href="#">Better Brain</a>
+        <nav class="nav" aria-label="Main">
           <a href="#mission">Mission</a>
-          <a href="#vision">Vision</a>
-          <a href="#principles">Principles</a>
-          <a href="#impact">Impact</a>
+          <a href="#products">Products</a>
+          <a href="#community">Community</a>
+          <a class="btn btn-primary" href="#contact">Join Early Access</a>
         </nav>
+        <button class="hamburger" aria-label="Open menu">☰</button>
       </div>
     </header>
 
-    <main>
+    <main id="main">
       <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Better thinking. Better choices. Better world.</p>
-            <h1>We build experiences that help people think more clearly.</h1>
-            <p class="lead">
-              Better Brain is a mission-driven initiative focused on strengthening attention,
-              reasoning, creativity, and collective intelligence through meaningful play,
-              reflection, and thoughtful design.
-            </p>
-            <div class="cta-row">
-              <a class="button primary" href="#mission">Explore the mission</a>
-              <a class="button secondary" href="#impact">See the impact</a>
+        <div class="hero-content container">
+          <div class="hero-left">
+            <p class="kicker">Playful cognitive growth</p>
+            <h1>Train attention. Sharpen reasoning. Grow together.</h1>
+            <p class="subtitle">Short research‑informed micro‑sessions that make mental fitness joyful and social. For all ages.</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="#contact">Get early access</a>
+              <a class="btn btn-ghost" href="#products">See demos</a>
             </div>
-          </div>
-
-          <div class="hero-card">
-            <div class="pill">Mission-driven</div>
-            <h2>Our goal:</h2>
-            <ul>
-              <li>Grow attention and awareness</li>
-              <li>Help people think more deeply</li>
-              <li>Make cognitive growth engaging for everyone</li>
-              <li>Build a wiser, more conscious society</li>
+            <ul class="trust-list">
+              <li><strong>Adaptive</strong> difficulty</li>
+              <li><strong>3–5 min</strong> daily sessions</li>
+              <li><strong>Privacy-first</strong> analytics</li>
             </ul>
           </div>
-        </div>
-      </section>
 
-      <section id="mission" class="section">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Mission</p>
-            <h2>To help people strengthen attention, reasoning, creativity, and emotional intelligence.</h2>
-          </div>
-          <div class="card-grid two-col">
-            <div class="info-card">
-              <h3>What we do</h3>
-              <p>
-                We design engaging digital experiences that encourage deeper focus, better
-                decision-making, creative thinking, and lifelong learning.
-              </p>
-            </div>
-            <div class="info-card">
-              <h3>Why it matters</h3>
-              <p>
-                In an age of distraction, clarity is a superpower. Better Brain creates spaces
-                where people can slow down, think better, and grow intentionally.
-              </p>
+          <div class="hero-right" aria-hidden="true">
+            <div class="device-mock">
+              <div class="screen">
+                <div class="sample">
+                  <svg viewBox="0 0 120 80" class="chart"><rect x="6" y="20" width="18" height="54" rx="3"/><rect x="32" y="8" width="18" height="66" rx="3"/><rect x="58" y="34" width="18" height="40" rx="3"/><rect x="84" y="18" width="18" height="56" rx="3"/></svg>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <svg class="hero-orb" viewBox="0 0 600 600" aria-hidden="true"><defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#7df7ff"/><stop offset="1" stop-color="#b3ffd9"/></linearGradient></defs><path d="M300 50C360 50 420 90 460 140C500 190 520 260 500 320C480 380 420 420 360 450C300 480 240 470 180 440C120 410 80 360 70 300C60 240 80 180 120 130C160 80 240 50 300 50Z" fill="url(#g1)" opacity="0.12"/></svg>
       </section>
 
-      <section id="vision" class="section alt">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Vision</p>
-            <h2>To build a global movement of thoughtful, curious, and attentive people.</h2>
-          </div>
-          <div class="quote-box">
-            We believe better thinking leads to better decisions, better relationships, and a better world.
-          </div>
-        </div>
-      </section>
-
-      <section id="principles" class="section">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Principles</p>
-            <h2>What guides the work</h2>
-          </div>
-          <div class="card-grid four-col">
-            <div class="info-card">
-              <h3>Accessibility</h3>
-              <p>Experience should be welcoming, simple, and useful for people of all ages and backgrounds.</p>
-            </div>
-            <div class="info-card">
-              <h3>Playful learning</h3>
-              <p>Growth becomes more sustainable when it feels engaging, rewarding, and human-centered.</p>
-            </div>
-            <div class="info-card">
-              <h3>Collective wisdom</h3>
-              <p>When people think better together, communities become wiser, kinder, and more resilient.</p>
-            </div>
-            <div class="info-card">
-              <h3>Intentional design</h3>
-              <p>We design for clarity, reflection, and meaningful improvement rather than shallow engagement.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="impact" class="section alt">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Impact</p>
-            <h2>We aim to create a healthier relationship between people and their attention.</h2>
-          </div>
-          <div class="card-grid three-col">
-            <div class="impact-card">
-              <strong>01</strong>
-              <h3>Attention</h3>
-              <p>Help people focus with greater intention in a distracted world.</p>
-            </div>
-            <div class="impact-card">
-              <strong>02</strong>
-              <h3>Reasoning</h3>
-              <p>Support deeper reflection and better decision-making.</p>
-            </div>
-            <div class="impact-card">
-              <strong>03</strong>
-              <h3>Collective growth</h3>
-              <p>Build a stronger culture of thoughtfulness and consciousness.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section cta-section">
-        <div class="container cta-box">
+      <section id="mission" class="section container">
+        <div class="grid grid-2">
           <div>
-            <p class="eyebrow">Join the movement</p>
-            <h2>We are building a future where thoughtful people shape a better world.</h2>
+            <h2>Our mission</h2>
+            <p>We design playful, evidence‑informed interactions that train attention, working memory and reasoning — and turn practice into a joyful habit.</p>
+            <p class="muted">We prioritise accessibility, privacy and measurable outcomes. No hype — only careful design and testing.</p>
           </div>
-          <a class="button primary" href="mailto:hello@betterbrain.example">Contact us</a>
+          <div class="cards">
+            <div class="card"><h4>Adaptive sessions</h4><p>Difficulty adjusts to keep you challenged but not frustrated.</p></div>
+            <div class="card"><h4>Short & daily</h4><p>Micro‑sessions that fit a busy life — 3–5 minutes each.</p></div>
+            <div class="card"><h4>Collective impact</h4><p>Aggregate community goals and meaningful shared achievements.</p></div>
+          </div>
         </div>
       </section>
+
+      <section id="products" class="section alt">
+        <div class="container">
+          <h2>Featured experiences</h2>
+          <div class="grid grid-3">
+            <article class="feature">
+              <h3>Memory Garden</h3>
+              <p>Spaced‑repetition and playful recall sequences — designed for transfer to daily tasks.</p>
+            </article>
+            <article class="feature">
+              <h3>Signal Choir</h3>
+              <p>Sensory‑selective attention tasks wrapped in short musical interactions.</p>
+            </article>
+            <article class="feature">
+              <h3>Pattern Forge</h3>
+              <p>Creative puzzle‑building with community leaderboards and user levels.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="community" class="section container">
+        <h2>Collective progress</h2>
+        <p class="muted">Contributions add to local and global goals — we visualise the community's attention map.</p>
+        <div class="community-grid">
+          <div class="stat"><strong>1.2M+</strong><span>micro sessions</span></div>
+          <div class="stat"><strong>48k</strong><span>contributors</span></div>
+          <div class="stat"><strong>72%</strong><span>weekly retention (target)</span></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta">
+        <div class="container">
+          <div class="cta-wrap">
+            <div>
+              <h2>Join early access</h2>
+              <p>Be first to try the pilots for schools, communities and families.</p>
+            </div>
+            <form id="signup" class="signup" action="#" onsubmit="return false;">
+              <input name="email" type="email" placeholder="Your email" required aria-label="email" />
+              <button class="btn btn-primary">Join the list</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-wrap">
-        <span>© 2026 Better Brain</span>
-        <span>Think better. Live better.</span>
+      <div class="container footer-inner">
+        <div>© 2026 Better Brain</div>
+        <div class="links"><a href="#privacy">Privacy</a><a href="#terms">Terms</a></div>
       </div>
     </footer>
 
